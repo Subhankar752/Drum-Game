@@ -8,6 +8,9 @@ app.get("/",function(req,res){
   res.sendFile(__dirname+"/index.html");
 })
 app.use(bodyParser.urlencoded({extended:true}));
-app.listen(3000 || process.env.PORT,function(){
+
+
+var port_number=app.listen(process.env.PORT || 3000);
+app.listen(port_number,function(){
   console.log("Server started");
 })
