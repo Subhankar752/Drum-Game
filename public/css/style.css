@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #bac964;
 }
 
 h1 {
@@ -26,6 +26,10 @@ footer {
 
 .s {
   background-image: url("images/tom3.png");
+}
+
+.hell{
+  height: 50px;
 }
 
 .d {
